@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute, ParamMap } from '@angular/router';
+import { ParallaxConfig } from 'ngx-parallax';
 import { DetailService } from '../../core/detail.service';
 import { Detail } from '../../core/detail.model';
 import 'rxjs/add/operator/map';
@@ -11,6 +12,10 @@ import 'rxjs/add/operator/map';
 })
 export class DetailComponent implements OnInit {
   detail: Detail;
+  parallaxConfig1: ParallaxConfig = {
+      initialValue: 0,        
+      ratio: 1
+  };
   constructor(private route: ActivatedRoute, private detailService: DetailService) {  }
 
   ngOnInit() {

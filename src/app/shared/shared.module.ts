@@ -8,8 +8,7 @@ import { MdSidenavModule } from '@angular/material';
 @NgModule({
   imports: [
     CommonModule,
-    BrowserAnimationsModule,
-    MdSidenavModule
+    BrowserAnimationsModule    
   ],
   declarations: [Parallax, DetailComponent],
   exports: [

@@ -4,21 +4,38 @@
         display: flex;
         overflow: visible;
         width: 100%;
-        min-height: 75vh;
         md-sidenav {
             max-width: 250px;
             display: flex;
             overflow: visible;
-        }
-        .content {
-            button.open-sidebar {
-                cursor: pointer;
-                &:focus {
-                    outline: none;
+            visibility: visible !important;
+            a {
+                padding: 10px 20px;
+                background-color: $primary-invert;
+                &:last-child {
+                    padding-bottom: 30px;
                 }
-                .navbar-toggler-icon{
-                    color: rgba(0,0,0,.9);
-                    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://ww…p='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+            }
+            button {
+                position: absolute;
+                right: -30px;
+                cursor: pointer;
+                padding: 30px 5px;
+                border-radius: 0 10px 10px 0;
+                border-color: $primary-invert;
+                span {
+                    display: inline-block;
+                    width: 1.1em;
+                    height: 1.1em;
+                    vertical-align: middle;
+                    content: "";
+                    background: center center / 100% 100% no-repeat;
+                    &.open-icon {
+                        background-image: url(/assets/right-arrow.svg);
+                    }
+                    &.close-icon {
+                        background-image: url(/assets/left-arrow.svg);
+                    }
                 }
             }
         }

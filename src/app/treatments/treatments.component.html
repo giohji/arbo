@@ -1,4 +1,15 @@
-<p>
-  treatments works!
-</p>
-<router-outlet></router-outlet>
+<md-sidenav-container class="sidenav-container">
+  <md-sidenav #sidenav mode="side" opened="true" class="navbar-light">
+    <div class="navbar-nav">
+      <a *ngFor="let item of teamItems" class="nav-item nav-link" (click)="navigated()" routerLink="{{item.key}}" routerLinkActive="active">
+        {{item.menuTitle}}
+      </a>
+    </div>
+    <button type="button" class="open-sidebar btn btn-secondary" (click)="sidenav.toggle()">
+      <span [class]="sidenav.opened ? 'close-icon' : 'open-icon'"></span>
+    </button>
+  </md-sidenav>
+  <div class="content">
+    <router-outlet></router-outlet>
+  </div>
+</md-sidenav-container>

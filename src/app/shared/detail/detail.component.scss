@@ -1,3 +1,22 @@
 :host {
+    display: block;
     width: 100%;
+    padding-top: 20px;
+    div.image {
+        display: flex;
+        width: 100%;
+        height: 500px;
+        align-items: center;
+        justify-content: center;
+    }
+    h1 {
+        font-size: 1.5em;
+        font-weight: bold;
+        margin-bottom: 1.2em;
+        padding-top: 250px;
+    }
+    p {
+        padding: 0 35px;
+        margin-bottom: 0.5rem;
+    }
 }

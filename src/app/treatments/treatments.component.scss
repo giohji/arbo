@@ -1,4 +1,43 @@
 @import "../../variables";
 :host {
-
+    .sidenav-container {
+        display: flex;
+        overflow: visible;
+        width: 100%;
+        md-sidenav {
+            max-width: 250px;
+            display: flex;
+            overflow: visible;
+            visibility: visible !important;
+            a {
+                padding: 10px 20px;
+                background-color: $primary-invert;
+                &:last-child {
+                    padding-bottom: 30px;
+                }
+            }
+            button {
+                position: absolute;
+                right: -30px;
+                cursor: pointer;
+                padding: 30px 5px;
+                border-radius: 0 10px 10px 0;
+                border-color: $primary-invert;
+                span {
+                    display: inline-block;
+                    width: 1.1em;
+                    height: 1.1em;
+                    vertical-align: middle;
+                    content: "";
+                    background: center center / 100% 100% no-repeat;
+                    &.open-icon {
+                        background-image: url(/assets/right-arrow.svg);
+                    }
+                    &.close-icon {
+                        background-image: url(/assets/left-arrow.svg);
+                    }
+                }
+            }
+        }
+    }
 }

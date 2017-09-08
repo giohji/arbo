@@ -1,17 +1,32 @@
-@charset "UTF-8";
 :host .sidenav-container {
   display: flex;
   overflow: visible;
-  width: 100%;
-  min-height: 75vh; }
+  width: 100%; }
   :host .sidenav-container md-sidenav {
     max-width: 250px;
     display: flex;
-    overflow: visible; }
-  :host .sidenav-container .content button.open-sidebar {
-    cursor: pointer; }
-    :host .sidenav-container .content button.open-sidebar:focus {
-      outline: none; }
-    :host .sidenav-container .content button.open-sidebar .navbar-toggler-icon {
-      color: rgba(0, 0, 0, 0.9);
-      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://ww…p='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
+    overflow: visible;
+    visibility: visible !important; }
+    :host .sidenav-container md-sidenav a {
+      padding: 10px 20px;
+      background-color: #fff; }
+      :host .sidenav-container md-sidenav a:last-child {
+        padding-bottom: 30px; }
+    :host .sidenav-container md-sidenav button {
+      position: absolute;
+      right: -30px;
+      cursor: pointer;
+      padding: 30px 5px;
+      border-radius: 0 10px 10px 0;
+      border-color: #fff; }
+      :host .sidenav-container md-sidenav button span {
+        display: inline-block;
+        width: 1.1em;
+        height: 1.1em;
+        vertical-align: middle;
+        content: "";
+        background: center center / 100% 100% no-repeat; }
+        :host .sidenav-container md-sidenav button span.open-icon {
+          background-image: url(/assets/right-arrow.svg); }
+        :host .sidenav-container md-sidenav button span.close-icon {
+          background-image: url(/assets/left-arrow.svg); }
