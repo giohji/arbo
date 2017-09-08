@@ -1,0 +1,15 @@
+<md-sidenav-container class="sidenav-container">
+  <md-sidenav #sidenav mode="side" opened="true">
+    <div>
+      <a *ngFor="let item of teamItems" class="nav-item nav-link" (click)="navigated()" routerLink="{{item.key}}" routerLinkActive="active">
+        {{item.menuTitle}}
+      </a>
+    </div>
+  </md-sidenav>
+  <div class="content">
+    <button type="button" class="open-sidebar btn btn-secondary" (click)="sidenav.open()">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <router-outlet></router-outlet>
+  </div>
+</md-sidenav-container>

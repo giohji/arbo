@@ -1,0 +1,55 @@
+<div class="container-fluid header" #header>
+  <div class="row">
+    <div class="col-lg-4 col-md-6 title text-nowrap">
+      <img src="/assets/favicon.svg" width="90" height="90" alt="arbo-logo">
+      <div>
+        Arbor <br/>
+        <span class="text-nowrap">Saúde integrada</span>
+      </div>
+    </div>
+    <div class="col-lg-4 col-md-6 address text-nowrap">
+      <img src="/assets/location.svg" width="24" height="24" alt="location">
+      <div>
+        <span class="text-nowrap">
+          Rua Dr. Miguel Penteado, 295
+        </span><br/>
+        <span class="text-nowrap">Jardim Chapadão</span><br/>
+        <span class="text-nowrap">Campinas, SP, 13070-118</span>
+      </div>
+    </div>
+    <div class="col-lg-2 offset-lg-0 offset-md-6 col-md-3 phone text-nowrap">
+        <img src="/assets/phone.svg" width="24" height="24" alt="phone" style="vertical-align:middle">
+        <div>
+          <span class="text-nowrap">(19) 3255-3462</span><br/>
+          <span class="text-nowrap">(19) 3255-3462</span><br/>
+          <span class="text-nowrap">(19) 3368-1850</span><br/>
+        </div>
+    </div>
+    <div class="col-lg-2 col-md-3 whatsapp">
+      <span class="text-nowrap">
+        <img src="/assets/whatsapp-logo.svg" width="24" height="24" alt="whatsapp-logo">
+        (19) 97604-5516
+      </span><br/>
+    </div>
+    
+  </div>
+</div>
+<nav class="navbar navbar-toggleable-sm navbar-light sticky-top">
+  <button class="navbar-toggler navbar-toggler-right btn-secondary" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" routerLink="main" [@itemState]="altTitleState">
+    <img src="/assets/favicon.svg" width="30" height="30" alt="arbo-logo">
+    Arbo
+  </a>
+  <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link" routerLink="main" routerLinkActive="active">Home</a>
+      <a class="nav-item nav-link" routerLink="about" routerLinkActive="active">Sobre</a>
+      <a class="nav-item nav-link" routerLink="team" routerLinkActive="active">Profissionais</a>
+      <a class="nav-item nav-link" routerLink="treatments" routerLinkActive="active">Tratamentos</a>
+      <a class="nav-item nav-link" routerLink="location" routerLinkActive="active">Localização</a>
+    </div>
+  </div>
+</nav>

@@ -1,0 +1,11 @@
+@import "../../variables";
+:host {
+    .address {
+        font-size: 1.1em;
+        padding-top: 20px;
+    }
+    iframe {
+        padding-top: 20px;
+        width: 100%;
+    }
+}

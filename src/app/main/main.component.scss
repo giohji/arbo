@@ -1,0 +1,59 @@
+@import "../../variables";
+:host {
+    div.parallax {
+        padding: 120px 20px;
+        background-repeat: repeat;
+        background-size: cover;
+        text-align: center;
+        color: $primary-invert;
+        font-size: 1.2em;
+        &.wood {
+            width: 100%;
+            background-image: url(/assets/wood.jpg);
+        }
+        &.bathroom {
+            background-image: url(/assets/bathroom.jpg);        
+        }
+        &.flower {
+            background-image: url(/assets/flower.jpg);
+        }
+    }
+    div.photo {
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 300px;
+        &.reception {
+            background-image: url(/assets/reception.jpg);
+            background-position: center;
+        }
+        &.waiting {
+            background-image: url(/assets/waiting.jpg);
+            background-position: center;
+        }
+    }
+    div
+    div.clinic-photo {
+        background-image: url(/assets/clinic-photo.jpg);
+    }
+    div.clinic-waiting {
+        background-image: url(/assets/clinic-waiting.jpg);
+    }
+    div.text {
+        font-size: 1.2em;
+        padding: 20px;
+        background-color: $primary;
+        color: $primary-invert;
+    }
+    div.photo-text {
+        height: 100%;
+        text-align: center;
+        color: $primary-invert;
+        >div.text {
+            font-size: 1.2em;
+            padding: 20px;
+            height: 100%;
+            background-color: transparentize($primary, 0.4);
+        }
+        
+    }
+}
