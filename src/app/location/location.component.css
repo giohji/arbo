@@ -1,0 +1,7 @@
+:host .address {
+  font-size: 1.1em;
+  padding-top: 20px; }
+
+:host iframe {
+  padding-top: 20px;
+  width: 100%; }

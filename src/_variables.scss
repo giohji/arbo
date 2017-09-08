@@ -1,0 +1,14 @@
+$brown: #291e00;
+$brown-invert: #fff;
+$primary: $brown;
+$primary-invert: $brown-invert;
+//Breakpoints
+$md: 991px;
+$sm: 767px;
+@mixin vertical-align {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}

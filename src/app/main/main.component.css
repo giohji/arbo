@@ -1,0 +1,48 @@
+:host div.parallax {
+  padding: 120px 20px;
+  background-repeat: repeat;
+  background-size: cover;
+  text-align: center;
+  color: #fff;
+  font-size: 1.2em; }
+  :host div.parallax.wood {
+    width: 100%;
+    background-image: url(/assets/wood.jpg); }
+  :host div.parallax.bathroom {
+    background-image: url(/assets/bathroom.jpg); }
+  :host div.parallax.flower {
+    background-image: url(/assets/flower.jpg); }
+
+:host div.photo {
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 300px; }
+  :host div.photo.reception {
+    background-image: url(/assets/reception.jpg);
+    background-position: center; }
+  :host div.photo.waiting {
+    background-image: url(/assets/waiting.jpg);
+    background-position: center; }
+
+:host div
+div.clinic-photo {
+  background-image: url(/assets/clinic-photo.jpg); }
+
+:host div.clinic-waiting {
+  background-image: url(/assets/clinic-waiting.jpg); }
+
+:host div.text {
+  font-size: 1.2em;
+  padding: 20px;
+  background-color: #291e00;
+  color: #fff; }
+
+:host div.photo-text {
+  height: 100%;
+  text-align: center;
+  color: #fff; }
+  :host div.photo-text > div.text {
+    font-size: 1.2em;
+    padding: 20px;
+    height: 100%;
+    background-color: rgba(41, 30, 0, 0.6); }
