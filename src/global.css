@@ -1,3 +1,6 @@
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #f7f7f7; }
+
+div.mat-drawer-content {
+  width: 100%; }

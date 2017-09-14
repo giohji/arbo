@@ -12,10 +12,6 @@ import 'rxjs/add/operator/map';
 })
 export class DetailComponent implements OnInit {
   detail: Detail;
-  parallaxConfig1: ParallaxConfig = {
-      initialValue: 0,        
-      ratio: 1
-  };
   constructor(private route: ActivatedRoute, private detailService: DetailService) {  }
 
   ngOnInit() {

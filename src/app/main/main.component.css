@@ -8,8 +8,8 @@
   :host div.parallax.wood {
     width: 100%;
     background-image: url(/assets/wood.jpg); }
-  :host div.parallax.bathroom {
-    background-image: url(/assets/bathroom.jpg); }
+  :host div.parallax.chair {
+    background-image: url(/assets/chair.jpg); }
   :host div.parallax.flower {
     background-image: url(/assets/flower.jpg); }
 
@@ -24,8 +24,7 @@
     background-image: url(/assets/waiting.jpg);
     background-position: center; }
 
-:host div
-div.clinic-photo {
+:host div.clinic-photo {
   background-image: url(/assets/clinic-photo.jpg); }
 
 :host div.clinic-waiting {
