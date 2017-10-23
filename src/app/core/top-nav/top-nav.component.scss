@@ -3,6 +3,9 @@
     div.header {
         padding: 20px 20px 10px 20px;
         background-color: $primary-invert;
+        .logo {
+            width: 150px;
+        }
         .title {
             font-size: 1.5em;
             div {
@@ -13,16 +16,15 @@
         }
         .phone {
             font-size: 1.2em;
-            text-align: right;
+            text-align: left;
+            .margin-left {
+                margin-left: 30px;
+            }
         }
         .address {
             text-transform: uppercase;
             font-size: 1em;
             text-align: left;
-        }
-        .whatsapp {
-            font-size: 1.2em;
-            text-align: right;
         }
         .phone,
         .address {

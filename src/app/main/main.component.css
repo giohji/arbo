@@ -6,6 +6,8 @@
   color: #fff;
   font-size: 1.2em; }
   :host div.parallax.wood {
+    background-attachment: fixed;
+    background-size: 100%;
     width: 100%;
     background-image: url(/assets/wood.jpg); }
   :host div.parallax.chair {

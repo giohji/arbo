@@ -1,5 +1,5 @@
-<div class="wood"></div>
-<div class="image" style.backgroundImage="url({{detail?.image}})">
+<div class="wood" [class.no-image]="detail?.image == null"></div>
+<div class="image" style.backgroundImage="url({{detail?.image}})" [class.no-image]="detail?.image == null">
     <h1>{{detail?.title}}</h1>
 </div>
 <p *ngFor="let desc of detail?.description">{{desc}}</p>

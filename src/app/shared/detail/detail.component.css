@@ -11,6 +11,11 @@
     background-repeat: no-repeat;
     background-position: center;
     margin-bottom: 20px; }
+    :host div.image.no-image {
+      height: 50px; }
+      :host div.image.no-image h1 {
+        margin: 0;
+        background: none; }
   :host div.wood {
     position: absolute;
     z-index: -1;
@@ -18,6 +23,8 @@
     height: 300px;
     width: 100%;
     background-image: url(/assets/wood.jpg); }
+    :host div.wood.no-image {
+      height: 50px; }
   :host h1 {
     display: block;
     font-size: 1.5em;

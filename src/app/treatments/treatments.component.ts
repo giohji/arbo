@@ -41,7 +41,8 @@ export class TreatmentsComponent implements OnInit {
     }
   }
 
-  navigated() {
+  navigated(element: Element) {
+    element.scrollIntoView(false);
     if(this.sidenav.mode == 'over') {
       this.sidenav.close();
     }

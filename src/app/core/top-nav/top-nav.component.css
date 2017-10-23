@@ -1,6 +1,8 @@
 :host div.header {
   padding: 20px 20px 10px 20px;
   background-color: #fff; }
+  :host div.header .logo {
+    width: 150px; }
   :host div.header .title {
     font-size: 1.5em; }
     :host div.header .title div {
@@ -9,14 +11,13 @@
       vertical-align: middle; }
   :host div.header .phone {
     font-size: 1.2em;
-    text-align: right; }
+    text-align: left; }
+    :host div.header .phone .margin-left {
+      margin-left: 30px; }
   :host div.header .address {
     text-transform: uppercase;
     font-size: 1em;
     text-align: left; }
-  :host div.header .whatsapp {
-    font-size: 1.2em;
-    text-align: right; }
   :host div.header .phone > img,
   :host div.header .address > img {
     vertical-align: middle; }

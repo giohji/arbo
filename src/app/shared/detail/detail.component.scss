@@ -12,6 +12,13 @@
         background-repeat: no-repeat;
         background-position: center; 
         margin-bottom: 20px;
+        &.no-image {
+            height: 50px;
+            h1 {
+                margin: 0;
+                background: none;
+            }
+        }
     }
     div.wood {
         position: absolute;
@@ -20,6 +27,9 @@
         height: 300px;
         width: 100%;
         background-image: url(/assets/wood.jpg); 
+        &.no-image {
+            height: 50px;
+        }
     }
     h1 {
         display: block;

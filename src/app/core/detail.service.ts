@@ -12,9 +12,10 @@ export class DetailService {
       title: "Dra. Karina Lika Hoshino Yamanaka – CRO/SP 87008",
       description:[
         "Imersão em Bichectomia pela Mazzter Odonto Learning",
-        "Especialista em Cirurgia e Traumatologia Buco-Maxilo-Facial pela Universidade São Marcos",
+        "Especialista em Cirurgia e Traumatologia Bucomaxilofacial pela Universidade São Marcos",
+        "Especialista em Implantodontia pela Universidade São Marcos",
         "Aperfeiçoamento em Odontologia Restauradora e Estética pela ACDC",
-        "Curso de extensão em Cirurgia Buco-Maxilo-Facial pela UNICAMP",
+        "Curso de extensão em Cirurgia Bucomaxilofacial pela UNICAMP",
         "Graduada em Odontologia pela UNICAMP"
       ]
     }),
@@ -27,7 +28,7 @@ export class DetailService {
       description:[
         "Imersão em Bichectomia pela Mazzter Odonto Learning",
         "Mestrado em Radiologia e Diagnóstico Estomatológico pela São Leopoldo Mandic",
-        "Especialização em Cirurgia e Traumatologia Buco-Maxilo-Facial pela São Leopoldo Mandic",
+        "Especialização em Cirurgia e Traumatologia Bucomaxilofacial pela São Leopoldo Mandic",
         "Curso de Aperfeiçoamento em Cirurgia Bucal e Terapêutica Medicamentosa pela ACDC",
         "Curso de Aperfeiçoamento em Implantodontia pela ACDC",
         "Curso de especialização em Hipnose Ericsoniana pelo Instituto Milton Erickson de Campinas",
@@ -77,7 +78,7 @@ export class DetailService {
       key: "profilaxia",
       menuTitle: "Profilaxia e Programa de prevenção",
       type: DetailType.TREATMENT,
-      image: "/assets/profilaxia.jpg",
+      //image: "/assets/profilaxia.jpg",
       title: "Profilaxia e Programa de prevenção",
       description:[
         "Todo o tratamento é iniciado com uma profilaxia, que consiste em uma limpeza profissional, na qual removemos tártaros, manchas e fazemos polimento dos dentes.",
@@ -89,7 +90,7 @@ export class DetailService {
       key: "periodontia",
       menuTitle: "Periodontia",
       type: DetailType.TREATMENT,
-      image: "/assets/periodontia.jpg",
+      //image: "/assets/periodontia.jpg",
       title: "Periodontia",
       description:[
         "Quando a gengiva fica com uma cor avermelhada escura e começa a sangrar ao passar o fio dental ou até mesmo a escova, mau hálito ou gosto ruim na boca são sinais de alerta que indicam que alguma infecção e inflamação está presente.",
@@ -100,23 +101,10 @@ export class DetailService {
       ]
     }),
     new Detail({
-      key: "endodontia ",
-      menuTitle: "Endodontia",
-      type: DetailType.TREATMENT,
-      image: "/assets/endodontia.jpg",
-      title: "Endodontia",
-      description:[
-        "Área da odontologia que trata doenças relacionadas a polpa do dente quando acometido por cáries extensas ou traumas.",
-        "Os sintomas geralmente são dor intensa, inchaço e as alterações também podem ser encontradas através de exames radiográficos.",
-        "O tratamento consiste na limpeza, preparo, desinfecção  do canal e obturação para devolver a função ao dente.",
-        "Atualmente, equipamentos de tecnologia de ponta como reciprocantes e rotatórios são muito eficientes no tratamento de canal, trazendo rapidez e efetividade."
-      ]
-    }),
-    new Detail({
       key: "endodontia",
       menuTitle: "Endodontia",
       type: DetailType.TREATMENT,
-      image: "/assets/endodontia.jpg",
+      //image: "/assets/endodontia.jpg",
       title: "Endodontia",
       description:[
         "Área da odontologia que trata doenças relacionadas a polpa do dente quando acometido por cáries extensas ou traumas.",
@@ -129,7 +117,7 @@ export class DetailService {
       key: "biopsia_bucal",
       menuTitle: "Biópsia Bucal",
       type: DetailType.TREATMENT,
-      image: "/assets/biopsiabucal.jpg",
+      //image: "/assets/biopsiabucal.jpg",
       title: "Biópsia Bucal",
       description:[
         "Toda lesão, ferida ou mancha que surgir na boca e persistir por mais de 15 dias é interessante realizar acompanhamento podendo ser necessário realizar a biópsia.",
@@ -141,7 +129,7 @@ export class DetailService {
       key: "enxerto_osseo",
       menuTitle: "Enxerto Ósseo",
       type: DetailType.TREATMENT,
-      image: "/assets/enxerto_osseo.jpg",
+      //image: "/assets/enxerto_osseo.jpg",
       title: "Enxerto Ósseo",
       description:[
         "O enxerto ósseo é indicado para os pacientes que apresentam perda óssea e buscam por um implante dentário. O enxerto ósseo é o procedimento no qual tecido ósseo (em pó ou em bloco) é depositado no local desejado, e após alguns meses o osso enxertado se incorpore no osso que já estava no nosso corpo, deixando aquela região mais volumosa, tornando assim o local apto para colocação de implantes dentários.",
@@ -152,7 +140,7 @@ export class DetailService {
       key: "implantes",
       menuTitle: "Implantes",
       type: DetailType.TREATMENT,
-      image: "/assets/implantes.jpg",
+      //image: "/assets/implantes.jpg",
       title: "Implantes",
       description:[
         "Para quem vive com falta de um ou mais dentes, o efeito cosmético de um implante dentário é extremamente positivo. Os implantes dentários funcionam e têm a mesma aparência de um dente normal.",
@@ -164,7 +152,7 @@ export class DetailService {
       key: "remocao_dos_terceiros_molares",
       menuTitle: "Remoção dos Terceiros Molares",
       type: DetailType.TREATMENT,
-      image: "/assets/remocao_dos_terceiros_molares.jpg",
+      //image: "/assets/remocao_dos_terceiros_molares.jpg",
       title: "Remoção dos Terceiros Molares",
       description:[
         "Hoje em dia é muito difícil as pessoas terem espaço para o nascimento do terceiro molar ou então conhecido \"dente do Juízo\". Sendo assim é muito comum os dentes nascerem apenas pela metade ou simplesmente não aparecerem na boca.",
@@ -177,10 +165,10 @@ export class DetailService {
       key: "bichectomia",
       menuTitle: "Bichectomia",
       type: DetailType.TREATMENT,
-      image: "/assets/bichectomia.jpg",
+      //image: "/assets/bichectomia.jpg",
       title: "Bichectomia",
       description:[
-        "Consiste em uma cirurgia na qual removemos um corpúsculo denominado \"Bola de Bichat\" que consiste em uma gordura que fica armazenada na região da bochecha. A remoção dessa gordura causa um afinamento na parte inferior do rosto, dando aquele \"efeito blush\", ou seja, as maçãs do rosto ficam mais proeminentes e o rosto fica mais fino.",
+        "É uma cirurgia na qual removemos um corpúsculo denominado \"Bola de Bichat\" que consiste em uma gordura que fica armazenada na região da bochecha. A remoção dessa gordura causa um afinamento na parte inferior do rosto, dando aquele \"efeito blush\", ou seja, as maçãs do rosto ficam mais proeminentes e o rosto fica mais fino.",
         "A bichectomia, além de sua função estética, é também indicada para as pessoas que costumam morder com frequência a parte interna das bochechas.",
         "A cirurgia é rápida e indolor. Os resultados começam a serem visualizados 15 dias após realizado o procedimento."
       ]
@@ -189,7 +177,7 @@ export class DetailService {
       key: "clareamento_dentario",
       menuTitle: "Clareamento dentário",
       type: DetailType.TREATMENT,
-      image: "/assets/clareamento_dentario.jpg",
+      //image: "/assets/clareamento_dentario.jpg",
       title: "Clareamento dentário",
       description:[
         "Um sorriso bonito e atraente caracteriza uma pessoa positivamente. Ter os dentes mais brancos transmite beleza, saúde e bem-estar.",
@@ -202,7 +190,7 @@ export class DetailService {
       key: "facetas_e_lentes_de_contato",
       menuTitle: "Facetas e Lentes de Contato",
       type: DetailType.TREATMENT,
-      image: "/assets/facetas_e_lentes_de_contato.jpg",
+      //image: "/assets/facetas_e_lentes_de_contato.jpg",
       title: "Facetas e Lentes de Contato",
       description:[
         "São fragmentos de porcelana que permitem mudar o formato dos dentes promovendo um sorriso mais harmônico.",
@@ -213,7 +201,7 @@ export class DetailService {
       key: "plastica_gengival",
       menuTitle: "Plástica Gengival",
       type: DetailType.TREATMENT,
-      image: "/assets/plastica_gengival.jpg",
+      //image: "/assets/plastica_gengival.jpg",
       title: "Plástica Gengival",
       description:[
         "Quando a gengiva avança sobre os dentes, dando a impressão de dentes curtos e pequenos ou então quando acontece o inverso: a gengiva recua deixando a raiz exposta, muitas vezes causando a sensibilidade ao frio e quente. A solução é a plástica gengival.",
@@ -224,7 +212,7 @@ export class DetailService {
       key: "protese_dentaria",
       menuTitle: "Prótese Dentária",
       type: DetailType.TREATMENT,
-      image: "/assets/protese_dentaria.jpg",
+      //image: "/assets/protese_dentaria.jpg",
       title: "Prótese Dentária",
       description:[
         "Especialidade odontológica que visa substituir dentes perdidos. A perda de dentes pode ocasionar diversos problemas como: dificuldade mastigatória, problemas gástricos, dor na articulação Têmporo Mandibular, dores de cabeça, entre outras.",
@@ -236,7 +224,7 @@ export class DetailService {
       key: "restauracao_dentaria",
       menuTitle: "Restauração Dentária",
       type: DetailType.TREATMENT,
-      image: "/assets/restauracao_dentaria.jpg",
+      //image: "/assets/restauracao_dentaria.jpg",
       title: "Restauração Dentária",
       description:[
         "O nome restauração, remete a volta do dente a forma original e a função.",
@@ -249,7 +237,7 @@ export class DetailService {
       key: "programa_para_gestantes",
       menuTitle: "Programa para Gestantes",
       type: DetailType.TREATMENT,
-      image: "/assets/programa_para_gestantes.jpg",
+      //image: "/assets/programa_para_gestantes.jpg",
       title: "Programa para Gestantes",
       description:[
         "Futuras mamães ou você que ainda está pensando em engravidar recomendamos a você este programa que irá tirar todas as suas dúvidas com relação a sua saúde bucal durante a gestação, além de garantir um tratamento seguro para você e seu bebê.",
@@ -261,7 +249,7 @@ export class DetailService {
       key: "programa_para_melhor_idade",
       menuTitle: "Programa para a Melhor Idade",
       type: DetailType.TREATMENT,
-      image: "/assets/programa_para_melhor_idade.jpg",
+      //image: "/assets/programa_para_melhor_idade.jpg",
       title: "Programa para a Melhor Idade",
       description:[
         "Nesse programa você passará por avaliação e acompanhamento de especialistas a cada 3 meses. Afinal, alguns problemas frequentes nessa fase são doenças periodontais, \"boca seca\" que costumam estar associados ao uso rotineiro de medicamentos e a outras condições sistêmicas frequentemente encontradas na 3ª idade, como a diabetes e a menopausa.",
@@ -273,7 +261,7 @@ export class DetailService {
       key: "programa_teen",
       menuTitle: "Programa Teen",
       type: DetailType.TREATMENT,
-      image: "/assets/programa_teen.jpg",
+      //image: "/assets/programa_teen.jpg",
       title: "Programa Teen",
       description:[
         "Balas, chicletes e refrigerantes são frequente no dia-a-dia dos jovens. Com isso vem a preocupação com a saúde bucal dos jovens, que normalmente não tem muita paciência em passar o fio dental, ainda mais quando usam aparelho fixo.",
@@ -285,7 +273,7 @@ export class DetailService {
       key: "psicoterapia",
       menuTitle: "Psicoterapia",
       type: DetailType.TREATMENT,
-      image: "/assets/psicoterapia.jpg",
+      //image: "/assets/psicoterapia.jpg",
       title: "A Importância da Psicoterapia",
       description:[
         "A psicoterapia é um recurso valioso para lidar com as dificuldades que enfrentamos como: estresse, ansiedade, depressão, fobias, pânicos, crises pessoais e de relacionamentos, conflitos conjugais e familiares, distúrbios psicossomáticos, dificuldades nas transições da vida, crises profissionais, dentre outros. Inúmeros são os benefícios da psicoterapia, sendo eles, deselvolvimento de habilidades pessoais (comunicação, assertividade, empatia, sentimento positivo, etc), melhoras na autoestima, tolerância à frustração, superação de conflitos internos, desenvolvimento pessoal, autonomia, autoconhecimento e superação de traumas.",
@@ -296,7 +284,7 @@ export class DetailService {
       key: "terapia_cognitivo_comportamental",
       menuTitle: "Terapia Cognitivo Comportamental",
       type: DetailType.TREATMENT,
-      image: "/assets/terapia_cognitivo_comportamental.jpg",
+      //image: "/assets/terapia_cognitivo_comportamental.jpg",
       title: "O que é a Terapia Cognitivo Comportamental?",
       description:[
         "É uma abordagem direta, breve e focada no problema atual do paciente.",
