@@ -34,7 +34,6 @@ export class TopNavComponent implements OnInit {
   @HostListener('window:scroll', ['$event'])
   onScroll(event) {
     let number = this.document.documentElement.scrollTop;
-    console.log(number);
     if (number > this.elementView.nativeElement.offsetHeight) {
       this.altTitleState = "visible";
     } else if (this.altTitleState && number < this.elementView.nativeElement.offsetHeight) {

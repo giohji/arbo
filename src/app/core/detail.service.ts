@@ -73,6 +73,20 @@ export class DetailService {
         "Especialista em Psicologia Clínica Terapia Cognitivo Comportamental pelo IPCS (Instituto de Psicologia e Controle do Stress)",
         "Atua na área clínica realizando atendimento de crianças, adolescentes, adultos e idosos"
       ]
+    }),new Detail({
+      key: "juliana",
+      menuTitle: "Fisioterapeuta Juliana Feriani Martelo",
+      type: DetailType.TEAM,
+      //image: "/assets/juliana.jpg",
+      title: "Juliana Feriani Martelo – Crefito-3/126651",
+      description:[
+        "Curso de Formação no método GDS de Cadeias Musculares e Articulares",
+        "Curso de Formação no Método Bertazzo pela Escola do Movimento Ivaldo Bertazzo",
+        "Conceito McConnell – Bandagem Funcional pelo Centro Valéria Figueiredo, São Paulo",
+        "Escoliose – Pilates por Polestar Pilates, Salvador",
+        "Formação Profissional no Método Pilates, Metacorpus, Campinas",
+        "Graduada em Fisioterapia pela PUC-Campinas"
+      ]
     }),
     new Detail({
       key: "profilaxia",
@@ -292,6 +306,39 @@ export class DetailService {
         "Nas últimas décadas a Terapia Cognitivo Comportamental tem tido um impacto enorme sob o campo da saúde mental, devido sua eficácia na compreensão e no tratamento de uma extensão de distúrbios emocionais e comportamentais."
       ]
     }),
+    new Detail({
+      key: "fisioterapia",
+      menuTitle: "Fisioterapia",
+      type: DetailType.TREATMENT,
+      //image: "/assets/fisioterapia.jpg",
+      title: "Fisioterapia",
+      description:[
+        "Tratamento de lesões do aparelho muscular e esquelético tais como dores em coluna, ombro, joelhos, tendinites, bursites e quaisquer acometimento dos músculos, articulações e estruturas ósseas.",
+        "O tratamento se dá por reestruturação da postura, massagens, alongamentos e fortalecimentos específicos e direcionados para cada caso."
+      ]
+    }),
+    new Detail({
+      key: "rpg",
+      menuTitle: "Reeducação da Postura e do Gesto",
+      type: DetailType.TREATMENT,
+      //image: "/assets/terapia_cognitivo_comportamental.jpg",
+      title: "Reeducação da Postura e do Gesto",
+      description:[
+        "Nesta abordagem de tratamento será feita uma análise criteriosa da postura e as principais alterações que podem estar gerando dores e desconfortos gerais no corpo.",
+        "Será apresentado ao paciente técnicas de percepção e consciência postural desse gesto/postura para que a correção seja feita e esses sintomas deixem de existir, gerando assim uma reestruturação da estrutura corporal, com mais harmonia e ausência de dores.",
+        "Indicado para dores crônicas ou agudas de coluna, fibromialgia, dores musculares."
+      ]
+    }),
+    new Detail({
+      key: "massagem_refuncionalizante",
+      menuTitle: "Massagem refuncionalizante",
+      type: DetailType.TREATMENT,
+      //image: "/assets/terapia_cognitivo_comportamental.jpg",
+      title: "Massagem refuncionalizante",
+      description:[
+        "Massagem reestruturante e relaxante nas cadeias musculares, visando relaxamento e re-harmonização das fibras, trazendo conforto e alivio de dores musculares."
+      ]
+    })
   ] 
    constructor() { }
    getDetail(key: string) {

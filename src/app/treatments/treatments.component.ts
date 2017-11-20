@@ -20,7 +20,6 @@ export class TreatmentsComponent implements OnInit {
   }
 
   ngAfterViewInit() {
-    console.log(window.innerWidth);
     if(window.innerWidth < 800) {
       this.sidenav.mode = 'over';
       this.sidenav.disableClose = false;
@@ -29,7 +28,6 @@ export class TreatmentsComponent implements OnInit {
 
   @HostListener('window:resize', ['$event'])
   onResize(event) {
-    console.log(event.target.innerWidth);
     if(event.target.innerWidth < 800) {
       this.sidenav.close();
       this.sidenav.mode = 'over';
@@ -41,8 +39,8 @@ export class TreatmentsComponent implements OnInit {
     }
   }
 
-  navigated(element: Element) {
-    element.scrollIntoView(false);
+  navigated() {
+    window.scrollTo(0, 0);
     if(this.sidenav.mode == 'over') {
       this.sidenav.close();
     }
