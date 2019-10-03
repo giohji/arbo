@@ -63,32 +63,6 @@ export class DetailService {
       ]
     }),
     new Detail({
-      key: "andrea",
-      menuTitle: "Psicóloga Andréa Tezolin",
-      type: DetailType.TEAM,
-      image: "/assets/andrea.jpg",
-      title: "Psicóloga Andréa Tezolin",
-      description:[
-        "Psicóloga formada pela Universidade São Francisco",
-        "Especialista em Psicologia Clínica Terapia Cognitivo Comportamental pelo IPCS (Instituto de Psicologia e Controle do Stress)",
-        "Atua na área clínica realizando atendimento de crianças, adolescentes, adultos e idosos"
-      ]
-    }),new Detail({
-      key: "juliana",
-      menuTitle: "Fisioterapeuta Juliana Feriani Martelo",
-      type: DetailType.TEAM,
-      //image: "/assets/juliana.jpg",
-      title: "Juliana Feriani Martelo – Crefito-3/126651",
-      description:[
-        "Curso de Formação no método GDS de Cadeias Musculares e Articulares",
-        "Curso de Formação no Método Bertazzo pela Escola do Movimento Ivaldo Bertazzo",
-        "Conceito McConnell – Bandagem Funcional pelo Centro Valéria Figueiredo, São Paulo",
-        "Escoliose – Pilates por Polestar Pilates, Salvador",
-        "Formação Profissional no Método Pilates, Metacorpus, Campinas",
-        "Graduada em Fisioterapia pela PUC-Campinas"
-      ]
-    }),
-    new Detail({
       key: "profilaxia",
       menuTitle: "Profilaxia e Programa de prevenção",
       type: DetailType.TREATMENT,
@@ -281,62 +255,6 @@ export class DetailService {
         "Balas, chicletes e refrigerantes são frequente no dia-a-dia dos jovens. Com isso vem a preocupação com a saúde bucal dos jovens, que normalmente não tem muita paciência em passar o fio dental, ainda mais quando usam aparelho fixo.",
         "Com esse programa ajudamos os pais a orientar e ver de perto como está a higiene bucal do seu filho, e assim evitarmos as temidas cáries, erosões dentárias e gengivite.",
         "Avaliaremos o seu filho e proporcionaremos a ele um programa que melhor enquadre ao perfil dele."
-      ]
-    }),
-    new Detail({
-      key: "psicoterapia",
-      menuTitle: "Psicoterapia",
-      type: DetailType.TREATMENT,
-      //image: "/assets/psicoterapia.jpg",
-      title: "A Importância da Psicoterapia",
-      description:[
-        "A psicoterapia é um recurso valioso para lidar com as dificuldades que enfrentamos como: estresse, ansiedade, depressão, fobias, pânicos, crises pessoais e de relacionamentos, conflitos conjugais e familiares, distúrbios psicossomáticos, dificuldades nas transições da vida, crises profissionais, dentre outros. Inúmeros são os benefícios da psicoterapia, sendo eles, deselvolvimento de habilidades pessoais (comunicação, assertividade, empatia, sentimento positivo, etc), melhoras na autoestima, tolerância à frustração, superação de conflitos internos, desenvolvimento pessoal, autonomia, autoconhecimento e superação de traumas.",
-        "Reserve um tempo na sua vida para cuidar de você!"
-      ]
-    }),
-    new Detail({
-      key: "terapia_cognitivo_comportamental",
-      menuTitle: "Terapia Cognitivo Comportamental",
-      type: DetailType.TREATMENT,
-      //image: "/assets/terapia_cognitivo_comportamental.jpg",
-      title: "O que é a Terapia Cognitivo Comportamental?",
-      description:[
-        "É uma abordagem direta, breve e focada no problema atual do paciente.",
-        "A Terapia Cognitivo Comportamental explica que o que nos afetam não são os acontecimentos e sim a forma que interpretamos os mesmos, ou seja, o pensamento negativo distorcido altera nosso humor e consequentemente nosso comportamento.",
-        "Nas últimas décadas a Terapia Cognitivo Comportamental tem tido um impacto enorme sob o campo da saúde mental, devido sua eficácia na compreensão e no tratamento de uma extensão de distúrbios emocionais e comportamentais."
-      ]
-    }),
-    new Detail({
-      key: "fisioterapia",
-      menuTitle: "Fisioterapia",
-      type: DetailType.TREATMENT,
-      //image: "/assets/fisioterapia.jpg",
-      title: "Fisioterapia",
-      description:[
-        "Tratamento de lesões do aparelho muscular e esquelético tais como dores em coluna, ombro, joelhos, tendinites, bursites e quaisquer acometimento dos músculos, articulações e estruturas ósseas.",
-        "O tratamento se dá por reestruturação da postura, massagens, alongamentos e fortalecimentos específicos e direcionados para cada caso."
-      ]
-    }),
-    new Detail({
-      key: "rpg",
-      menuTitle: "Reeducação da Postura e do Gesto",
-      type: DetailType.TREATMENT,
-      //image: "/assets/terapia_cognitivo_comportamental.jpg",
-      title: "Reeducação da Postura e do Gesto",
-      description:[
-        "Nesta abordagem de tratamento será feita uma análise criteriosa da postura e as principais alterações que podem estar gerando dores e desconfortos gerais no corpo.",
-        "Será apresentado ao paciente técnicas de percepção e consciência postural desse gesto/postura para que a correção seja feita e esses sintomas deixem de existir, gerando assim uma reestruturação da estrutura corporal, com mais harmonia e ausência de dores.",
-        "Indicado para dores crônicas ou agudas de coluna, fibromialgia, dores musculares."
-      ]
-    }),
-    new Detail({
-      key: "massagem_refuncionalizante",
-      menuTitle: "Massagem refuncionalizante",
-      type: DetailType.TREATMENT,
-      //image: "/assets/terapia_cognitivo_comportamental.jpg",
-      title: "Massagem refuncionalizante",
-      description:[
-        "Massagem reestruturante e relaxante nas cadeias musculares, visando relaxamento e re-harmonização das fibras, trazendo conforto e alivio de dores musculares."
       ]
     })
   ] 
