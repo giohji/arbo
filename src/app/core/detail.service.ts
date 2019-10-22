@@ -63,6 +63,17 @@ export class DetailService {
       ]
     }),
     new Detail({
+      key: "clinica_geral",
+      menuTitle: "Clínica Geral",
+      type: DetailType.TREATMENT,
+      //image: "/assets/profilaxia.jpg",
+      title: "Clínica Geral",
+      description:[
+        "Diferente do especialista, o clínico geral é responsável em avaliar e diagnosticar as doenças bucais e fazer o acompanhamento individual dos casos que não necessitam de especialistas.",
+        "Além disso, ele está preparado para interpretar exames e auxiliar em questões relacionadas à higiene oral."
+      ]
+    }),
+    new Detail({
       key: "profilaxia",
       menuTitle: "Profilaxia e Programa de prevenção",
       type: DetailType.TREATMENT,
